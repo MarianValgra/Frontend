@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/* Youbo can add global styles to this file, and also import other style files */
+body{
+    font-family:'Catamaran', sans-serif ;
+    background-image: url("https://images.wallpaperscraft.com/image/single/mountains_river_sun_143529_1280x720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+    background: #f5f1f8;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #647081;
+    border-radius: 10px;
+    border: 2px solid #f5f1f8;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #8390A2;
+    border-radius: 10px;
+    border: 2px solid #f5f1f8;
+}
